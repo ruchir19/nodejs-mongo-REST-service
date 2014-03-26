@@ -10,7 +10,8 @@ exports.userList = function(db){
         collection.find({},{},function(e,docs){
 	  console.log(docs);
             res.render('userList', {
-                "userList" : docs
+                "userList" : docs,
+		"title" : 'Node.JS and Mongo DB working'
             });
         });
     };

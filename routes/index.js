@@ -3,7 +3,7 @@
  * GET home page.
  */
 
-exports.userList = function(db){
+exports.index = function(db){
 //  res.render('index', { title: 'Express' });
  return function(req, res) {
         var collection = db.get('usercollection');
