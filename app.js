@@ -19,7 +19,7 @@ var app = express();
  
    var Db = mongo.Db;
   var monk = require('monk');
-  var db = monk('ruchir:pollence1987@oceanic.mongohq.com:10016/nextglide_staging');
+  var db = monk('--YOUR mongodb connection String--');
 
  // var db = monk('http://localhost:27017/expresshogan/');
   //app.db=db;
