@@ -11,3 +11,7 @@
 2) MongoDB : is an open-source leading NoSQL document database. Widely used to store JSON documents in a webapp.<br/>
 3) Monk : is a tiny wrapper for MongoDB connections built on top of MongoSkin which provides an abstraction layer to access a MongoDB from Node.JS.<br/>
 
+<h4>License </h4>
+
+MIT
+
